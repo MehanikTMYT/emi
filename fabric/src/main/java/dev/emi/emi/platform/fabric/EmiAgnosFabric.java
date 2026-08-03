@@ -16,7 +16,6 @@ import dev.emi.emi.EmiRenderHelper;
 import dev.emi.emi.EmiUtil;
 import dev.emi.emi.api.EmiPlugin;
 import dev.emi.emi.api.EmiRegistry;
-import dev.emi.emi.api.FabricEmiStack;
 import dev.emi.emi.api.stack.EmiIngredient;
 import dev.emi.emi.api.stack.EmiStack;
 import dev.emi.emi.api.stack.FluidEmiStack;
@@ -28,7 +27,6 @@ import dev.emi.emi.runtime.EmiLog;
 import dev.emi.emi.screen.FakeScreen;
 import it.unimi.dsi.fastutil.objects.Object2IntMap;
 import it.unimi.dsi.fastutil.objects.Object2IntOpenHashMap;
-import mezz.jei.api.fabric.ingredients.fluids.IJeiFluidIngredient;
 
 import net.minecraft.world.item.crafting.RecipeMap;
 import net.minecraft.world.level.block.entity.FuelValues;
@@ -228,9 +226,6 @@ public class EmiAgnosFabric extends EmiAgnos {
 
 	@Override
 	protected EmiStack createFluidStackAgnos(Object object) {
-		if (object instanceof IJeiFluidIngredient fluid) {
-			return FabricEmiStack.of(fluid.getFluidVariant(), fluid.getAmount());
-		}
 		return EmiStack.EMPTY;
 	}
 

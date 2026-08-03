@@ -64,9 +64,6 @@ dependencies {
 	common(project(path: ":xplat", configuration: "namedElements")) { transitive = false }
 	shadowCommon(project(path: ":xplat", configuration: "transformProductionForge")) { transitive = false }
 
-	modCompileOnly("mezz.jei:${rootProject.jei_version}") {
-		transitive = false
-	}
 }
 
 processResources {
@@ -101,7 +98,6 @@ def filteredSourcesJar = tasks.register('filteredSourcesJar', Jar, {
 	def remapSourcesJar = tasks.named('remapSourcesJar', RemapSourcesJarTask)
 	dependsOn remapSourcesJar
 	from zipTree(remapSourcesJar.flatMap { it.archiveFile })
-	exclude 'dev/emi/emi/jemi/**'
 })
 
 def apiJar = tasks.register('apiJar', Jar, {
