@@ -49,6 +49,7 @@ public class RecipeScreen extends Screen {
 	private static final Identifier TEXTURE = EmiPort.id("emi", "textures/gui/background.png");
 	public static @Nullable EmiIngredient resolve = null;
 	private Map<EmiRecipeCategory, List<EmiRecipe>> recipes;
+	private final EmiIngredient lookupStack;
 	public AbstractContainerScreen<?> old;
 	private List<RecipeTab> tabs = Lists.newArrayList();
 	private int tabPageSize = 6;
@@ -66,8 +67,13 @@ public class RecipeScreen extends Screen {
 	int y = (this.height - backgroundHeight) / 2;
 
 	public RecipeScreen(AbstractContainerScreen<?> old, Map<EmiRecipeCategory, List<EmiRecipe>> recipes) {
+		this(old, recipes, EmiStack.EMPTY);
+	}
+
+	public RecipeScreen(AbstractContainerScreen<?> old, Map<EmiRecipeCategory, List<EmiRecipe>> recipes, EmiIngredient lookupStack) {
 		super(EmiPort.translatable("screen.emi.recipe"));
 		this.old = old;
+		this.lookupStack = lookupStack == null ? EmiStack.EMPTY : lookupStack;
 		arrows = List.of(
 			new SizedButtonWidget(x + 2, y - 18, 12, 12, 0, 0,
 				() -> tabs.size() > tabPageSize, w -> setPage(tabPage - 1, tab, page)),
@@ -84,6 +90,10 @@ public class RecipeScreen extends Screen {
 		);
 		resolve = null;
 		this.recipes = recipes;
+	}
+
+	public EmiIngredient getLookupStack() {
+		return lookupStack;
 	}
 
 	@Override
