@@ -17,13 +17,23 @@ public class EmiInfoRecipe implements EmiRecipe {
 	private static final int PADDING = 4;
 	private static final Minecraft CLIENT = Minecraft.getInstance();
 	private final List<EmiIngredient> stacks;
-	private final List<FormattedCharSequence> text;
+	private final List<Component> rawText;
+	// Fleet port (26.1): splitting needs glyph metrics, and loading glyphs uploads font textures — only allowed on the
+	// render thread. Plugins construct info recipes on EMI's reload worker, so split lazily on first (render) use.
+	private List<FormattedCharSequence> text;
 	private final Identifier id;
 
 	public EmiInfoRecipe(List<EmiIngredient> stacks, List<Component> text, @Nullable Identifier id) {
 		this.stacks = stacks;
-		this.text = text.stream().flatMap(t -> CLIENT.font.split(t, getDisplayWidth() - 4).stream()).toList();
+		this.rawText = text;
 		this.id = id;
+	}
+
+	private List<FormattedCharSequence> getText() {
+		if (text == null) {
+			text = rawText.stream().flatMap(t -> CLIENT.font.split(t, getDisplayWidth() - 4).stream()).toList();
+		}
+		return text;
 	}
 
 	@Override
@@ -59,7 +69,7 @@ public class EmiInfoRecipe implements EmiRecipe {
 	@Override
 	public int getDisplayHeight() {
 		int stackHeight = ((Math.min(stacks.size(), MAX_STACKS) - 1) / STACK_WIDTH + 1) * 18;
-		return stackHeight + CLIENT.font.lineHeight * text.size() + PADDING;
+		return stackHeight + CLIENT.font.lineHeight * getText().size() + PADDING;
 	}
 
 	@Override
@@ -81,8 +91,8 @@ public class EmiInfoRecipe implements EmiRecipe {
 		}
 		int y = stackHeight * 18 + PADDING;
 		int lineCount = (widgets.getHeight() - y) / CLIENT.font.lineHeight;
-		PageManager manager = new PageManager(text, lineCount);
-		if (lineCount < text.size()) {
+		PageManager manager = new PageManager(getText(), lineCount);
+		if (lineCount < getText().size()) {
 			widgets.addButton(2, 2, 12, 12, 0, 0, () -> true, (mouseX, mouseY, button) -> {
 				manager.scroll(-1);
 			});
