@@ -1,11 +1,9 @@
 {
   "modmenu.summaryTranslation.emi": "Многофункциональный и удобный инструмент для поиска предметов и просмотра рецептов",
   "modmenu.descriptionTranslation.emi": "Позволяет добавлять предметы в избранное, просматривать деревья рецептов, настраивать боковые панели по своему желанию и многое другое.",
-
   "key.keyboard.control": "Ctrl",
   "key.keyboard.alt": "Alt",
   "key.keyboard.shift": "Shift",
-
   "key.emi.toggle_visibility": "Переключить видимость",
   "key.emi.focus_search": "Сфокусировать поиск",
   "key.emi.clear_search": "Очистить поиск",
@@ -32,7 +30,6 @@
   "key.emi.copy_recipe_id": "Скопировать ID рецепта",
   "key.emi.hide_stack": "Скрыть предмет",
   "key.emi.hide_stack_by_id": "Скрыть предмет по ID",
-
   "emi.index_source.creative": "Творческие вкладки",
   "emi.index_source.registered": "Зарегистрированные",
   "emi.index_source.creative_plus_registered": "Совмещённый режим",
@@ -91,7 +88,6 @@
   "emi.button_visibility.auto": "Автоматически",
   "emi.button_visibility.shown": "Показана",
   "emi.button_visibility.hidden": "Скрыта",
-
   "config.emi.group.general": "Основное",
   "config.emi.group.general.search": "Поиск",
   "config.emi.group.ui": "Интерфейс",
@@ -104,10 +100,8 @@
   "config.emi.group.ui.bottom_sidebar": "Нижняя панель",
   "config.emi.group.binds": "Горячие клавиши",
   "config.emi.group.dev": "Для разработчиков",
-
   "config.emi.group.binds.crafts": "Создание",
   "config.emi.group.binds.cheats": "Творческий режим",
-
   "config.emi.general.enabled": "Включить EMI",
   "config.emi.general.cheat_mode": "Творческий режим",
   "config.emi.general.help_level": "Уровень помощи",
@@ -116,7 +110,6 @@
   "config.emi.general.search_tooltip_by_default": "Поиск по подсказке",
   "config.emi.general.search_mod_name_by_default": "Поиск по названию мода",
   "config.emi.general.search_tags_by_default": "Поиск по тегам",
-
   "config.emi.ui.effect_location": "Расположение эффектов",
   "config.emi.ui.center_search_bar": "Отцентровать поисковую строку",
   "config.emi.ui.show_hover_overlay": "Показывать рамку при наведении",
@@ -125,7 +118,6 @@
   "config.emi.ui.recipe_book_action": "Кнопка книги рецептов",
   "config.emi.ui.search_sidebar_focus": "Приоритетная панель при поиске",
   "config.emi.ui.empty_search_sidebar_focus": "Приоритетная панель при пустом поиске",
-
   "config.emi.ui.left_sidebar_pages": "Страницы",
   "config.emi.ui.left_sidebar_subpanels": "Подстраницы",
   "config.emi.ui.left_sidebar_size": "Размер",
@@ -133,7 +125,6 @@
   "config.emi.ui.left_sidebar_align": "Выравнивание",
   "config.emi.ui.left_sidebar_header": "Шапка",
   "config.emi.ui.left_sidebar_theme": "Тема",
-
   "config.emi.ui.right_sidebar_pages": "Страницы",
   "config.emi.ui.right_sidebar_subpanels": "Подстраницы",
   "config.emi.ui.right_sidebar_size": "Размер",
@@ -141,7 +132,6 @@
   "config.emi.ui.right_sidebar_align": "Выравнивание",
   "config.emi.ui.right_sidebar_header": "Шапка",
   "config.emi.ui.right_sidebar_theme": "Тема",
-
   "config.emi.ui.top_sidebar_pages": "Страницы",
   "config.emi.ui.top_sidebar_subpanels": "Подстраницы",
   "config.emi.ui.top_sidebar_size": "Размер",
@@ -149,7 +139,6 @@
   "config.emi.ui.top_sidebar_align": "Выравнивание",
   "config.emi.ui.top_sidebar_header": "Шапка",
   "config.emi.ui.top_sidebar_theme": "Тема",
-
   "config.emi.ui.bottom_sidebar_pages": "Страницы",
   "config.emi.ui.bottom_sidebar_subpanels": "Подстраницы",
   "config.emi.ui.bottom_sidebar_size": "Размер",
@@ -157,7 +146,6 @@
   "config.emi.ui.bottom_sidebar_align": "Выровнять",
   "config.emi.ui.bottom_sidebar_header": "Шапка",
   "config.emi.ui.bottom_sidebar_theme": "Тема",
-
   "config.emi.ui.maximum_recipe_screen_height": "Максимальная высота окна",
   "config.emi.ui.minimum_recipe_screen_width": "Минимальная ширина окна",
   "config.emi.ui.vertical_margin": "Вертикальный отступ",
@@ -173,7 +161,6 @@
   "config.emi.ui.recipe_screenshot_button": "Снимок рецепта",
   "config.emi.ui.recipe_screenshot_scale": "Размер снимка рецепта",
   "config.emi.ui.use_batched_renderer": "Использовать пакетную отрисовку",
-
   "config.emi.dev.dev_mode": "Режим разработчика",
   "config.emi.dev.edit_mode": "Режим редактора",
   "config.emi.dev.log_untranslated_tags": "Логировать непереведённые теги",
@@ -182,28 +169,22 @@
   "config.emi.dev.show_recipe_decorators": "Показывать украшения рецепта",
   "config.emi.dev.highlight_defaulted": "Подсвечивать стандартные",
   "config.emi.dev.highlight_exclusion_areas": "Подсвечивать зоны исключения",
-
   "config.emi.presets.sidebars": "Боковые панели",
   "config.emi.presets.binds": "Горячие клавиши",
   "config.emi.presets.restore": "Восстановление",
-
   "config.emi.presets.productive": "Продуктивный",
   "config.emi.presets.recipe_book_plus": "Книга рецептов +",
   "config.emi.presets.low_distraction": "Мало отвлекающий",
   "config.emi.presets.empty_search_craftable": "Создаваемые при пустом поиске",
-
   "config.emi.presets.author_binds": "Авторские настройки",
-
   "config.emi.presets.backup": "Восстановить резервную копию",
   "config.emi.presets.defaults": "Сброс до заводских",
-
   "emi.unit.liters": "Литры",
   "emi.unit.millibuckets": "Милливёдра",
   "emi.unit.droplets": "Капли",
   "emi.fluid.amount.liters": "%s л",
   "emi.fluid.amount.millibuckets": "%s мв",
   "emi.fluid.amount.droplets": "%s к",
-
   "emi.disabled": "§cEMI отключён! §aВключить:§r",
   "emi.reloading": "EMI перезагружается...",
   "emi.reloading.waiting": "EMI ждёт данные о рецептах от сервера...",
@@ -248,12 +229,9 @@
   "tooltip.emi.select_resolution": "Нажмите на §6выход рецепта§r, чтобы привязать его к §dэтому§r дереву",
   "tooltip.emi.default_resolution": "Нажмите на кнопку §6сделать стандартным рецептом§r, чтобы привязать его ко §aвсем§r деревьям",
   "tooltip.emi.clear_resolution": "Нажмите §6сюда§r, чтобы §cочистить§r выбор для этого рецепта",
-
   "tooltip.emi.config": "Конфигурация %s",
   "tooltip.emi.recipe_tree": "Дерево рецептов",
-
   "tooltip.emi.config.global": "Использовать глобальную настройку EMI между всеми копиями игры вместо собственной для каждой копии",
-
   "tooltip.emi.synfav.obtained": "%s/%s получено",
   "tooltip.emi.synfav.remaining": "%s осталось",
   "tooltip.emi.synfav.batches_remaining": "%s осталось создать",
@@ -262,25 +240,19 @@
   "tooltip.emi.synfav.fully_craftable": "Можно создать §dвсе§r предметы\n§6Взаимодействуйте§r, чтобы создать до §9%1$s§r предметов",
   "tooltip.emi.synfav.craft_some": "Нажмите %s, чтобы создать столько, сколько возможно",
   "tooltip.emi.synfav.craft_all": "Нажмите %s, чтобы создать все §9%s§r предметов",
-
   "tooltip.emi.bom.batch_size": "Размер пакета:  %s\nПрокрутите, чтобы отрегулировать\nЗажмите §6[shift]§r, чтобы изменять по 16",
   "tooltip.emi.bom.batch_size.ideal": "Нажмите %s, чтобы получить меньше всего остатков",
   "tooltip.emi.bom.mode.view": "§6Просматриваете§r дерево рецептов",
   "tooltip.emi.bom.mode.craft": "Дерево рецептов §6создания§r\nПрогресс будет показан в дереве рецептов\n§bSynthetic favorites§r added to sidebar",
   "tooltip.emi.bom.help": "Дерево рецептов показывает прогресс и базовую стоимость рецепта\nЭкран можно двигать и приближать\n\nНажмите ЛКМ по узлу, чтобы выбрать рецепт, который будет использоваться\nЗажмите §6[shift]§r, чтобы автоматически выбрать, основываясь на вашем инвентаре\n\nНажмите ПКМ по узлу рецептов, чтобы временно его свернуть\nЗажмите §6[shift]§r, чтобы убрать из рецепта\n\nНачальное состояние дерева контролируется рецептами по умолчанию\nКнопка рядом с рецептами может установить предпочтительный стандартный рецепт\n\nПереключатель рядом с общей стоимостью может помочь в создании дерева рецептов\nПри создании дерева материалы, которые ещё предстоит собрать, будут отображены\n\n§bИскусственно избранные предметы§r будут добавлены в боковую панель с избранными предметами.\nОни будут показывать ещё незавершённые шаги к созданию нужного предмета в дереве",
-
   "tooltip.emi.fluid_interaction.basalt.soul_soil": "Под лавой",
   "tooltip.emi.fluid_interaction.basalt.blue_ice": "На уровне с лавой",
-
   "screen.emi.recipe": "Рецепт",
   "screen.emi.config": "Конфигурация",
   "screen.emi.presets": "Предустановки",
-
   "screen.emi.config.reset": "Обратить %s изменение(-ий)",
-
   "emi.error.recipe.initialize": "Ошибка при инициализации",
   "emi.error.recipe.render": "Ошибка при рендере",
-
   "emi.dev.severity.error": "Ошибка",
   "emi.dev.severity.warning": "Предупреждение",
   "emi.dev.null_recipe_id": "Идентификатор рецепта равен §7нулю§r\nРецепты должны иметь уникальные идентификаторы для сериализации\nЭто повлияет только на данный рецепт",
@@ -291,7 +263,6 @@
   "emi.dev.null_input_or_output": "Входные или выходные данные рецепта равны §7нулю§r\nИспользуйте пустой список без каких-либо входных или выходных данных\nИспользуйте §7EmiStack.EMPTY§r для представления пустой стопки",
   "emi.dev.no_output_slots": "Слоты рецепта не содержат никаких выходных данных\nВызовите §7SlotWidget.recipeContext(this)§r для выходных данных§r",
   "emi.dev.synthetic_nag_explanation": "Не удалось найти идентификатор рецепта в менеджере рецептов, но он не является синтетическим\n§7%s§r\nЕсли рецепт не соответствует рецепту JSON, основанному на данных, он должен использовать синтетический идентификатор",
-
   "emi.chess.piece.white_pawn": "Белая пешка",
   "emi.chess.piece.white_rook": "Белая ладья",
   "emi.chess.piece.white_knight": "Белый конь",
@@ -312,12 +283,10 @@
   "emi.chess.multiplayer.accepted": "%s принимает ваше приглашение в шахматы",
   "emi.chess.multiplayer.cancelled": "%s отменяет игру в шахматы",
   "emi.chess.multiplayer.unavailable": "%s не может играть в шахматы",
-
   "emi.cooking.experience": "%s опыта",
   "emi.cooking.time": "%s секунд",
   "emi.grinding.experience": "%s — %s опыта",
   "emi.fuel_time.items": "Переплавит %s шт",
-
   "emi.category.minecraft.crafting": "Создание",
   "emi.category.minecraft.smelting": "Плавка",
   "emi.category.minecraft.blasting": "Выплавка",
@@ -332,12 +301,9 @@
   "emi.category.emi.fuel": "Топливо",
   "emi.category.emi.composting": "Компостирование",
   "emi.category.emi.info": "Информация",
-
   "emi.category.emi.tag": "Теги",
   "emi.category.emi.ingredient": "Ингредиенты",
-
   "alias.emi.workbench": "Рабочая станция",
-
   "tag.item.minecraft.logs": "Брёвна",
   "tag.item.minecraft.oak_logs": "Дубовые брёвна",
   "tag.item.minecraft.birch_logs": "Берёзовые брёвна",
@@ -437,7 +403,6 @@
   "tag.item.minecraft.trim_templates": "Шаблоны шаблоны",
   "tag.item.minecraft.trimmable_armor": "Можно применить кузнечный шаблон",
   "tag.item.minecraft.villager_plantable_seeds": "Сажаемые крестьянами семена",
-
   "tag.minecraft.armadillo_food": "Еда броненосцев",
   "tag.minecraft.axolotl_food": "Еда аксолотлей",
   "tag.minecraft.bee_food": "Пчелиная еда",
@@ -489,13 +454,11 @@
   "tag.minecraft.strider_tempt_items": "Нравится лавомеркам",
   "tag.minecraft.turtle_food": "Черепашья еда",
   "tag.minecraft.wolf_food": "Волчья еда",
-
   "tag.fluid.minecraft.water": "Вода",
   "tag.fluid.minecraft.lava": "Лава",
   "tag.fluid.c.water": "Вода",
   "tag.fluid.c.lava": "Лава",
   "tag.fluid.c.milk": "Молоко",
-
   "tag.item.c.stone": "Камень",
   "tag.item.c.cobblestone": "Булыжник",
   "tag.item.c.cobblestone.deepslate": "Колотый глубинный сланец",
@@ -534,7 +497,6 @@
   "tag.item.c.ores_in_ground.stone": "Каменные руды",
   "tag.item.c.ores_in_ground.deepslate": "Глубинносланцевые руды",
   "tag.item.c.ores_in_ground.netherrack": "Незераковые руды",
-
   "tag.item.c.chest": "Сундуки",
   "tag.item.c.coal": "Угли",
   "tag.item.c.sand": "Пески",
@@ -550,9 +512,7 @@
   "tag.item.c.ores.lapis": "Лазуритоносные руды",
   "tag.item.c.ores.emerald": "Изумрудоносные руды",
   "tag.item.c.ores.diamond": "Алмазоносные руды",
-
   "tag.item.c.storage_blocks.coal": "Блоки хранения угля",
-
   "tag.item.c.raw_materials.copper": "Рудная медь",
   "tag.item.c.copper_dusts": "Медная пыль",
   "tag.item.c.dusts.copper": "Медная пыль",
@@ -566,7 +526,6 @@
   "tag.item.c.copper_blocks": "Блоки меди",
   "tag.item.c.storage_blocks.raw_copper": "Блоки хранения рудной меди",
   "tag.item.c.storage_blocks.copper": "Блоки хранения меди",
-
   "tag.item.c.raw_materials.iron": "Рудное железо",
   "tag.item.c.iron_dusts": "Железная пыль",
   "tag.item.c.dusts.iron": "Железная пыль",
@@ -580,7 +539,6 @@
   "tag.item.c.iron_blocks": "Блоки железа",
   "tag.item.c.storage_blocks.raw_iron": "Блоки хранения рудного железа",
   "tag.item.c.storage_blocks.iron": "Блоки хранения железа",
-
   "tag.item.c.raw_materials.gold": "Рудное золото",
   "tag.item.c.gold_dusts": "Золотая пыль",
   "tag.item.c.dusts.gold": "Золотая пыль",
@@ -594,11 +552,9 @@
   "tag.item.c.gold_blocks": "Блоки золота",
   "tag.item.c.storage_blocks.gold": "Блоки хранения рудного золота",
   "tag.item.c.storage_blocks.raw_gold": "Блоки хранения золота",
-
   "tag.item.c.gems.amethyst": "Аметисты",
   "tag.item.c.amethyst_dusts": "Аметистовая пыль",
   "tag.item.c.storage_blocks.amethyst": "Блоки хранения аметиста",
-
   "tag.item.c.storage_blocks.diamond": "Блоки хранения алмазов",
   "tag.item.c.storage_blocks.emerald": "Блоки хранения изумрудов",
   "tag.item.c.storage_blocks.lapis": "Блоки хранения лазурита",
@@ -631,7 +587,6 @@
   "tag.item.c.netherite_scrap_dusts": "Пыль незеритового лома",
   "tag.item.c.ores.netherite_scrap": "Древние обломки",
   "tag.item.c.ores.quartz": "Кварценосные руды",
-
   "tag.item.c.spears": "Копья",
   "tag.item.c.axes": "Топоры",
   "tag.item.c.barrels": "Бочки",
@@ -759,7 +714,6 @@
   "tag.item.c.swords": "Мечи",
   "tag.item.c.water_buckets": "Вёдра воды",
   "tag.item.c.wrenches": "Гаечные ключи",
-
   "tag.item.c.budding_blocks": "Цветущие блоки",
   "tag.item.c.buds": "Бутоны",
   "tag.item.c.clusters": "Друзы",
@@ -772,7 +726,6 @@
   "tag.item.c.uncolored_sandstone_stairs": "Ступеньки из бесцветного песчаника",
   "tag.item.c.villager_job_sites": "Блоки профессий крестьян",
   "tag.item.c.wooden_barrels": "Деревянные бочки",
-
   "tag.item.c.armors": "Броня",
   "tag.item.c.armors.boots": "Ботинки",
   "tag.item.c.armors.chestplates": "Нагрудники",
@@ -789,11 +742,80 @@
   "tag.item.c.tools.shovels": "Лопаты",
   "tag.item.c.tools.swords": "Мечи",
   "tag.item.c.tools.tridents": "Трезубцы",
-
   "tag.item.fabric.pickaxes": "Кирки",
   "tag.item.fabric.axes": "Топоры",
   "tag.item.fabric.shovels": "Лопаты",
   "tag.item.fabric.hoes": "Мотыги",
   "tag.item.fabric.swords": "Мечи",
-  "tag.item.fabric.shears": "Ножницы"
+  "tag.item.fabric.shears": "Ножницы",
+  "tag.minecraft.bars": "Решётки",
+  "tag.minecraft.book_cloning_target": "Цель копирования книг",
+  "tag.minecraft.brewing_fuel": "Топливо для зельеварения",
+  "tag.minecraft.bundles": "Мешки",
+  "tag.minecraft.camel_husk_food": "Корм для верблюда-кадавра",
+  "tag.minecraft.chains": "Цепи",
+  "tag.minecraft.copper": "Медь",
+  "tag.minecraft.copper_chests": "Медные сундуки",
+  "tag.minecraft.copper_golem_statues": "Статуи медного голема",
+  "tag.minecraft.copper_tool_materials": "Материалы медных инструментов",
+  "tag.minecraft.diamond_tool_materials": "Материалы алмазных инструментов",
+  "tag.minecraft.drowned_preferred_weapons": "Любимое оружие утопленника",
+  "tag.minecraft.duplicates_allays": "Размножает тихонь",
+  "tag.minecraft.eggs": "Яйца",
+  "tag.minecraft.enchantable.lunge": "Зачаровывается: выпад",
+  "tag.minecraft.enchantable.melee_weapon": "Зачаровывается: оружие ближнего боя",
+  "tag.minecraft.enchantable.sweeping": "Зачаровывается: разящий клинок",
+  "tag.minecraft.furnace_minecart_fuel": "Топливо для вагонетки с печью",
+  "tag.minecraft.gaze_disguise_equipment": "Снаряжение, скрывающее от взгляда",
+  "tag.minecraft.gold_tool_materials": "Материалы золотых инструментов",
+  "tag.minecraft.happy_ghast_food": "Корм для счастливого гаста",
+  "tag.minecraft.happy_ghast_tempt_items": "Приманка для счастливого гаста",
+  "tag.minecraft.harnesses": "Упряжи",
+  "tag.minecraft.iron_tool_materials": "Материалы железных инструментов",
+  "tag.minecraft.lanterns": "Фонари",
+  "tag.minecraft.lightning_rods": "Громоотводы",
+  "tag.minecraft.map_invisibility_equipment": "Снаряжение невидимости на карте",
+  "tag.minecraft.nautilus_bucket_food": "Корм для наутилуса в ведре",
+  "tag.minecraft.nautilus_food": "Корм для наутилуса",
+  "tag.minecraft.nautilus_taming_items": "Приручение наутилуса",
+  "tag.minecraft.netherite_tool_materials": "Материалы незеритовых инструментов",
+  "tag.minecraft.pale_oak_logs": "Брёвна бледного дуба",
+  "tag.minecraft.panda_eats_from_ground": "Панда ест с земли",
+  "tag.minecraft.piglin_preferred_weapons": "Любимое оружие пиглина",
+  "tag.minecraft.piglin_safe_armor": "Броня, безопасная среди пиглинов",
+  "tag.minecraft.pillager_preferred_weapons": "Любимое оружие разбойника",
+  "tag.minecraft.repairs_chain_armor": "Чинит кольчужную броню",
+  "tag.minecraft.repairs_copper_armor": "Чинит медную броню",
+  "tag.minecraft.repairs_diamond_armor": "Чинит алмазную броню",
+  "tag.minecraft.repairs_gold_armor": "Чинит золотую броню",
+  "tag.minecraft.repairs_iron_armor": "Чинит железную броню",
+  "tag.minecraft.repairs_leather_armor": "Чинит кожаную броню",
+  "tag.minecraft.repairs_netherite_armor": "Чинит незеритовую броню",
+  "tag.minecraft.repairs_turtle_helmet": "Чинит черепаший панцирь",
+  "tag.minecraft.repairs_wolf_armor": "Чинит волчью броню",
+  "tag.minecraft.shearable_from_copper_golem": "Медный голем срезает ножницами",
+  "tag.minecraft.shulker_boxes": "Шалкеровые ящики",
+  "tag.minecraft.skeleton_preferred_weapons": "Любимое оружие скелета",
+  "tag.minecraft.spears": "Копья",
+  "tag.minecraft.villager_picks_up": "Подбирают жители",
+  "tag.minecraft.wither_skeleton_disliked_weapons": "Нелюбимое оружие скелета-иссушителя",
+  "tag.minecraft.wooden_shelves": "Деревянные полки",
+  "tag.minecraft.wooden_tool_materials": "Материалы деревянных инструментов",
+  "tag.minecraft.zombie_horse_food": "Корм для лошади-зомби",
+  "tag.minecraft.bubble_column_can_occupy": "Может занять пузырьковый столб",
+  "tag.minecraft.cat_collar_dyes": "Красители ошейника кошки",
+  "tag.minecraft.cauldron_can_remove_dye": "Котёл смывает краситель",
+  "tag.minecraft.dyes": "Красители",
+  "tag.minecraft.grass_blocks": "Блоки травы",
+  "tag.minecraft.loom_dyes": "Красители для ткацкого станка",
+  "tag.minecraft.loom_patterns": "Узоры для ткацкого станка",
+  "tag.minecraft.metal_nuggets": "Металлические самородки",
+  "tag.minecraft.moss_blocks": "Блоки мха",
+  "tag.minecraft.mud": "Грязь",
+  "tag.minecraft.supports_frogspawn": "Держит лягушачью икру",
+  "tag.minecraft.supports_lily_pad": "Держит кувшинку",
+  "tag.minecraft.supports_sugar_cane_adjacently": "Рядом может расти тростник",
+  "tag.minecraft.wolf_collar_dyes": "Красители ошейника волка",
+  "key.emi.display_all_recipes": "Показать все рецепты",
+  "config.emi.tooltip.binds.display_all_recipes": "Открывает экран рецептов со всеми рецептами игры."
 }

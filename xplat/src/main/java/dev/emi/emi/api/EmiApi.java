@@ -102,6 +102,13 @@ public class EmiApi {
 		return null;
 	}
 
+	public static EmiIngredient getRecipeLookupStack() {
+		if (client.screen instanceof RecipeScreen recipeScreen) {
+			return recipeScreen.getLookupStack();
+		}
+		return EmiStack.EMPTY;
+	}
+
 	public static AbstractContainerScreen<?> getHandledScreen() {
 		Screen s = client.screen;
 		if (s instanceof AbstractContainerScreen<?> hs) {
@@ -258,13 +265,13 @@ public class EmiApi {
 			}
 			if (client.screen instanceof AbstractContainerScreen<?> hs) {
 				push();
-				client.setScreen(new RecipeScreen(hs, recipes));
+				client.setScreen(new RecipeScreen(hs, recipes, stack));
 			} else if (client.screen instanceof BoMScreen bs) {
 				push();
-				client.setScreen(new RecipeScreen(bs.old, recipes));
+				client.setScreen(new RecipeScreen(bs.old, recipes, stack));
 			} else if (client.screen instanceof RecipeScreen rs) {
 				push();
-				RecipeScreen n = new RecipeScreen(rs.old, recipes);
+				RecipeScreen n = new RecipeScreen(rs.old, recipes, stack);
 				client.setScreen(n);
 				n.focusCategory(rs.getFocusedCategory());
 			}

@@ -23,7 +23,9 @@ allprojects {
 	base.archivesName = rootProject.archives_base_name
 	ext.mavenVersion = "${rootProject.mod_version}"
 	if (System.getenv("RELEASE") == null) {
-		ext.mavenVersion += "-SNAPSHOT"
+		// Fleet: "-semi<commit>" instead of "-SNAPSHOT" (forks pin emi_version=1.1.24-semi<commit>+26.1.2)
+		def hash = new ProcessBuilder('git', 'rev-parse', '--short=8', 'HEAD').directory(rootDir).start().text.trim()
+		ext.mavenVersion += "-semi" + (hash ?: "SNAPSHOT")
 	}
 	ext.mavenVersion += "+${rootProject.minecraft_version}"
 	version = "${project.ext.mavenVersion}+${project.name}"

@@ -12,4 +12,5 @@ include("fabric")
 //include("forge")
 include("neoforge")
 
-rootProject.name = "semi"
+// Fleet: publish as dev.emi:emi-<loader> so forks resolve it as EMI (drop-in, same mod id)
+rootProject.name = "emi"
